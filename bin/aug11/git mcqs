@@ -1,0 +1,72 @@
+
+
+**1. Which command initializes a new Git repository?**
+a) git start
+b) git init ✅
+c) git create
+d) git new
+
+---
+
+**2. What does the 'git add' command do?**
+a) Saves changes to the remote repository
+b) Adds files to the staging area ✅
+c) Creates a new repository
+d) Merges two branches
+
+---
+
+**3. Which command is used to create a local copy of a remote repository?**
+a) git fork
+b) git clone ✅
+c) git copy
+d) git pull
+
+---
+
+**5. Which command uploads local commits to a remote repository?**
+a) git push ✅
+b) git upload
+c) git commit
+d) git send
+
+---
+
+**6. What does 'git commit -m "message"' do?**
+a) Commits changes with a message ✅
+b) Commits changes without message
+c) Deletes commits
+d) Moves files to remote repo
+
+---
+
+**7. Which sequence correctly creates a repo, stages, commits, and pushes changes?**
+a) git init → git add → git commit → git push ✅
+b) git add → git commit → git push → git init
+c) git init → git push → git add → git commit
+d) git push → git add → git commit → git init
+
+---
+
+**8. After cloning a repository, which command will update your local copy with remote changes?**
+a) git fetch
+b) git pull ✅
+c) git push
+d) git init
+
+---
+
+**9. Which command shows the status of files in the working directory and staging area?**
+a) git state
+b) git status ✅
+c) git check
+d) git info
+
+---
+
+**10. Which of these is NOT a valid Git command?**
+a) git init
+b) git add
+c) git commit
+d) git start ✅
+

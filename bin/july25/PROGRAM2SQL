@@ -1,0 +1,17 @@
+-- 1. Create the nurse table
+CREATE TABLE nurse (
+    employeeid INT PRIMARY KEY,
+    name VARCHAR(50),
+    position VARCHAR(50),
+    registered CHAR(1),   -- 't' = true (registered), 'f' = false (not registered)
+    ssn VARCHAR(20)
+);
+-- 2.  Insert sample data
+INSERT INTO nurse (employeeid, name, position, registered, ssn) VALUES
+(101, 'Carla Espinosa', 'Head Nurse', 't', '11111110'),
+(102, 'Laverne Roberts', 'Nurse', 't', '22222220'),
+(103, 'Paul Flowers', 'Nurse', 'f', '33333330');
+-- 3. Query to find nurses who are NOT registered
+SELECT *
+FROM nurse
+WHERE registered = 'f';

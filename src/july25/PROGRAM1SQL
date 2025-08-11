@@ -1,0 +1,56 @@
+-- 1. Create the Database
+CREATE DATABASE StudentRepo;
+
+--  2. Use the Database
+USE StudentRepo;
+
+-- 3. Create the Table with Constraints
+CREATE TABLE Students (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Class VARCHAR(20) NOT NULL,
+    Mark INT NOT NULL,
+    Gender VARCHAR(10) NOT NULL
+);
+
+--  4. Insert Given Records
+INSERT INTO Students (ID, Name, Class, Mark, Gender) VALUES
+(1, 'John Deo', 'Four', 75, 'female'),
+(2, 'Max Ruin', 'Three', 85, 'male'),
+(3, 'Arnold', 'Three', 55, 'male'),
+(4, 'Krish Star', 'Four', 60, 'female'),
+(5, 'John Mike', 'Four', 60, 'female'),
+(6, 'Alex John', 'Four', 55, 'male'),
+(7, 'My John Rob', 'Five', 78, 'male'),
+(8, 'Asruid', 'Five', 85, 'male'),
+(9, 'Tes Qry', 'Six', 78, 'male'),
+(10, 'Big John', 'Four', 55, 'female');
+
+--  5. Update Arnold's Marks from 55 → 70
+UPDATE Students
+SET Mark = 70
+WHERE Name = 'Arnold';
+
+-- 6. Delete Tes Qry's Record (left college)
+DELETE FROM Students
+WHERE Name = 'Tes Qry';
+
+--  7. Show Marks in Ascending Order (lowest → highest)
+SELECT * FROM Students
+ORDER BY Mark ASC;
+
+--  8. Show Marks in Descending Order (highest → lowest)
+SELECT * FROM Students
+ORDER BY Mark DESC;
+
+--  9. Select Only Female Candidates
+SELECT * FROM Students
+WHERE Gender = 'female';
+
+--  10. Student(s) with Lowest Marks
+SELECT * FROM Students
+WHERE Mark = (SELECT MIN(Mark) FROM Students);
+
+--  11. Student(s) with Highest Marks
+SELECT * FROM Students
+WHERE Mark = (SELECT MAX(Mark) FROM Students);

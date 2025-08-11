@@ -1,0 +1,29 @@
+
+
+## **Test Case Table for Jira**
+
+| Test Case ID | Test Summary                                 | Precondition                    | Steps                                                                                                          | Expected Result                                              | Status |
+| ------------ | -------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------ |
+| TC\_PG\_01   | Verify PayPal payment button is displayed    | User is on checkout page        | 1. Navigate to checkout 2. Verify "Pay with PayPal" button presence                                            | PayPal button is visible                                     | Pass   |
+| TC\_PG\_02   | Verify redirection to PayPal login page      | User is on checkout page        | 1. Click "Pay with PayPal" 2. Observe page redirection                                                         | User is redirected to PayPal login page securely             | Pass   |
+| TC\_PG\_03   | Verify Card Type dropdown values             | User is on checkout page        | 1. Click card type dropdown 2. View available options                                                          | Mastercard, Visa, Amex, Discover present                     | Pass   |
+| TC\_PG\_04   | Validate successful credit card payment      | User has valid card details     | 1. Select card type 2. Enter valid card number 3. Enter expiry date 4. Enter CVV 5. Click "Pay Now"            | Payment processed successfully; order confirmation displayed | Pass   |
+| TC\_PG\_05   | Verify error for invalid card number         | User is on checkout page        | 1. Select card type 2. Enter invalid card number 3. Enter valid expiry & CVV 4. Click "Pay Now"                | Error message: "Invalid card number"                         | Pass   |
+| TC\_PG\_06   | Verify error for expired card                | User is on checkout page        | 1. Select card type 2. Enter valid card number 3. Enter past expiry date 4. Enter valid CVV 5. Click "Pay Now" | Error message: "Card expired"                                | Pass   |
+| TC\_PG\_07   | Verify CVV field accepts only numeric values | User is on checkout page        | 1. Enter letters in CVV field                                                                                  | System does not accept letters; only numbers allowed         | Pass   |
+| TC\_PG\_08   | Verify mandatory fields validation           | User is on checkout page        | 1. Click "Pay Now" without entering details                                                                    | Validation messages shown for all required fields            | Pass   |
+| TC\_PG\_09   | Verify secure HTTPS connection               | User is on checkout page        | 1. Check URL                                                                                                   | URL uses HTTPS protocol                                      | Pass   |
+| TC\_PG\_10   | Verify payment failure handling              | Payment gateway returns failure | 1. Attempt payment with insufficient funds                                                                     | Error message displayed; order not processed                 | Pass   |
+
+---
+
+## **Execution Status in Jira**
+
+* All **Pass** above are sample results assuming functionality works correctly.
+* If you execute in Jira:
+
+  * Navigate to your **Test Case** issue type.
+  * Add **Test Steps** (like above).
+  * Link to relevant checkout **Story** or **Epic**.
+  * Update the **Execution Status** for each step after testing.
+

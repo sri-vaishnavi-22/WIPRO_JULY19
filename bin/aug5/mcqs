@@ -1,0 +1,166 @@
+MCQs on Software Testing Principles
+1.	1. Which of the following is NOT a principle of software testing?
+•	A. Testing shows the presence of defects
+•	B. Exhaustive testing is possible
+•	C. Early testing saves time and money
+•	D. Defect clustering
+
+•	Answer   B. Exhaustive testing is possible
+
+2.	2. The principle "Absence of errors fallacy" means:
+•	A. There are no bugs in the software
+•	B. Software is free from defects
+•	C. Finding and fixing defects does not help if the system is unusable
+•	D. All bugs have been fixed
+
+•	Answer  C. Finding and fixing defects does not help if the system is unusable
+
+3.	3. Which principle states that most defects are found in a small number of modules?
+•	A. Pesticide Paradox
+•	B. Defect Clustering
+•	C. Early Testing
+•	D. Testing shows the presence of defects
+
+•	Answer B. Defect Clustering
+
+4.	4. What is the main reason for the "Pesticide Paradox" in testing?
+•	A. New features are not tested
+•	B. Same set of test cases no longer find new bugs
+•	C. Testers are not skilled
+•	D. Code is too complex to test
+
+•	Answer B. Same set of test cases no longer find new bugs
+
+5.	5. Why is early testing important in the SDLC?
+•	A. It's cheaper to test at the end
+•	B. It helps find defects early, saving cost and effort
+•	C. Requirements are clear at the end
+•	D. Development is complete
+
+•	Answer B. It helps find defects early, saving cost and effort
+
+6.	6. Which testing principle helps reduce the cost of fixing defects?
+•	A. Testing shows presence of defects
+•	B. Defect clustering
+•	C. Early testing
+•	D. Pesticide paradox
+
+•	Answer C. Early testing
+
+7.	7. Which principle highlights that testing can’t prove the software is bug-free?
+•	A. Complete testing is possible
+•	B. Testing shows the presence of defects
+•	C. Defect clustering
+•	D. Exhaustive testing is possible
+
+•	Answer  B. Testing shows the presence of defects
+
+8.	 What is the implication of the "Pesticide Paradox" principle?
+•	A. Testing must be repeated frequently
+•	B. Testers must write new tests to find more bugs
+•	C. Developers must fix the bugs
+•	D. Regression testing is unnecessary
+
+•	Answer B. Testers must write new tests to find more bugs
+
+
+
+9. Which of these testing principles says that 100% testing is not possible?
+•	A. Early testing
+•	B. Defect clustering
+•	C. Exhaustive testing is impossible
+•	D. Testing shows the presence of defects
+
+•	Answer C. Exhaustive testing is impossible
+
+10. Which testing principle is closely related to Pareto Principle (80/20 rule)?
+•	A. Testing shows presence of defects
+•	B. Defect clustering
+•	C. Early testing
+•	D. Pesticide paradox
+
+•	Answer B. Defect clustering
+
+11. Testing effort should be based on...?
+•	A. Developer’s skills
+•	B. Type of test cases
+•	C. Risk and priorities
+•	D. Size of application
+
+•	Answer: C. Risk and priorities
+
+11.	Which principle stresses that software must satisfy user needs, not just be defect-free?
+•	A. Pesticide paradox
+•	B. Absence-of-errors fallacy
+•	C. Exhaustive testing
+•	D. Defect clustering
+
+•	Answer B. Absence-of-errors fallacy
+
+
+
+12. According to testing principles, which of the following is not possible?
+•	A. Find all defects
+•	B. Execute multiple tests
+•	C. Automate testing
+•	D. Use test data
+
+•	Answer A. Find all defects
+
+13.	 What happens if the same tests are repeated over and over?
+•	A. More bugs are found
+•	B. Same bugs are found again
+•	C. Bugs are resolved
+•	D. New bugs are unlikely to be found
+
+•	Answer D. New bugs are unlikely to be found
+
+14.	Testing can only show...
+•	A. The software is error-free
+•	B. All possible inputs
+•	C. That defects are present
+•	D. The end of the development cycle
+
+•	Answer: C. That defects are present
+
+15.	 The principle "Defect clustering" relates to...
+•	A. All modules are equally buggy
+•	B. Bugs are evenly distributed
+•	C. Few modules contain most of the defects
+•	D. Bugs occur randomly
+
+•	Answer:  C. Few modules contain most of the defects
+
+
+
+16.	One of the testing principles states that testing should start:
+•	A. After development ends
+•	B. When the product is stable
+•	C. As early as possible in the lifecycle
+•	D. During deployment
+
+•	Answer: C. As early as possible in the lifecycle
+
+17.	 A well-known fallacy in software testing is:
+•	A. All bugs are found
+•	B. Testing assures quality
+•	C. No defects exist
+•	D. Absence-of-errors fallacy
+
+•	Answer: D. Absence-of-errors fallacy
+
+18.	According to the principles, testing is most effective when:
+•	A. Done by developers only
+•	B. Performed at the end
+•	C. Planned early and continuously
+•	D. Performed manually
+
+•	Answer: C. Planned early and continuously
+
+19.	Which principle focuses on updating test cases regularly?
+•	A. Early testing
+•	B. Pesticide paradox
+•	C. Absence-of-errors fallacy
+•	D. Risk-based testing
+
+•	Answer: B. Pesticide paradox

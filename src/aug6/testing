@@ -1,0 +1,70 @@
+## **1. Order Pizza Text Box (Equivalence Partitioning)**
+
+| Test Case ID | Input (Pizza Quantity) | Expected Output                     | Valid / Invalid |
+| ------------ | ---------------------- | ----------------------------------- | --------------- |
+| TC1          | 1                      | Order placed successfully           | Valid           |
+| TC2          | 10                     | Order placed successfully           | Valid           |
+| TC3          | 0                      | Error: Invalid quantity             | Invalid         |
+| TC4          | 11                     | Error: Only 10 Pizza can be ordered | Invalid         |
+| TC5          | 99                     | Error: Only 10 Pizza can be ordered | Invalid         |
+
+---
+
+## **2. Password Field (Min 6, Max 10 characters)**
+
+| Test Case ID | Input Length | Expected Output          | Valid / Invalid |
+| ------------ | ------------ | ------------------------ | --------------- |
+| TC1          | 0–5 chars    | System should not accept | Invalid         |
+| TC2          | 6–10 chars   | System should accept     | Valid           |
+| TC3          | 11–14 chars  | System should not accept | Invalid         |
+
+---
+
+## **3. OTP Field (Exactly 6 Digits)**
+
+| Test Case ID | Input Length     | Expected Output | Valid / Invalid |
+| ------------ | ---------------- | --------------- | --------------- |
+| TC1          | < 6 digits       | Invalid OTP     | Invalid         |
+| TC2          | Exactly 6 digits | Valid OTP       | Valid           |
+| TC3          | > 6 digits       | Invalid OTP     | Invalid         |
+
+---
+
+## **4. College Admission (Percentage between 50% and 90%)**
+
+| Test Case ID | Input (Percentage) | Expected Output    | Valid / Invalid |
+| ------------ | ------------------ | ------------------ | --------------- |
+| TC1          | 49                 | Invalid percentage | Invalid         |
+| TC2          | 50                 | Valid percentage   | Valid           |
+| TC3          | 90                 | Valid percentage   | Valid           |
+| TC4          | 91                 | Invalid percentage | Invalid         |
+
+---
+
+## **5. Boundary Value Analysis (Name, Age, Personal Number)**
+
+### Name (Max 16 characters)
+
+| Test Case ID | Input Length | Expected Output |
+| ------------ | ------------ | --------------- |
+| TC1          | 0            | Invalid (empty) |
+| TC2          | 16           | Valid           |
+| TC3          | > 16         | Invalid         |
+
+### Age (Between 18–60)
+
+| Test Case ID | Input Age | Expected Output |
+| ------------ | --------- | --------------- |
+| TC4          | 17        | Invalid         |
+| TC5          | 18        | Valid           |
+| TC6          | 60        | Valid           |
+| TC7          | 61        | Invalid         |
+
+### Personal Number (Exactly 10 digits)
+
+| Test Case ID | Input Digits      | Expected Output |
+| ------------ | ----------------- | --------------- |
+| TC8          | < 10 digits       | Invalid         |
+| TC9          | Exactly 10 digits | Valid           |
+| TC10         | > 10 digits       | Invalid         |
+
